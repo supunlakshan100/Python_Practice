@@ -43,3 +43,25 @@ b=False
 
 v=a^b
 print(v)
+x=4
+x= 5
+x+= 3
+print(x)
+a=a+4
+print(a)
+
+a,b=9,6
+print(a,b)
+
+
+# name=input('Enter your name:')
+# print("Hello",name)
+
+# print('Enter your name :',end='')
+# name=input()
+# print("Hello",name)
+
+
+#Data structure
+x=[1,2,3,4]
+print(x)
