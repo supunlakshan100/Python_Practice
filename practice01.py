@@ -30,3 +30,16 @@ print(d)
 
 a>b
 print(a==b)
+a=True
+b=False
+
+c= not b
+print(c)
+
+#exo operater
+
+a=True
+b=False
+
+v=a^b
+print(v)
