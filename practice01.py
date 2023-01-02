@@ -63,5 +63,42 @@ print(a,b)
 
 
 #Data structure
+# list
 x=[1,2,3,4]
 print(x)
+y=x[0]
+print(y)
+
+x[3]=700
+print(x)
+
+x.append(100)
+x.insert(3,600)
+print(x)
+
+x.remove(600)
+print(x)
+
+x.pop(2)
+
+a=[1,2,3,4]
+b=[5,6,7,8]
+
+z=a+b
+print(z)
+m=3 in z
+print(m)
+
+m=3 not in  z
+print(m)
+ 
+# Dictanary
+x={'1000':'colombo','9000':'badulla'}
+x['1200']='moratuwa'
+print(x)
+
+y=x['1000']
+print(y)
+
+print(x.keys())
+
