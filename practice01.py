@@ -102,3 +102,18 @@ print(y)
 
 print(x.keys())
 
+del x['1000']
+print(x)
+
+x={
+    "a":['Hello','Hi','Good morning'],
+    "b":['Bye','Good morning'],
+    "c":['Good afternoon']
+}
+
+y=x['a']
+print(y)
+y.append('Aayubowan')
+print(y)
+z=x["c"]
+print(z)
