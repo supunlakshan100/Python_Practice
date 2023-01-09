@@ -119,3 +119,18 @@ z=x["c"]
 print(z)
 
 print('supun')
+
+# set data types
+
+x={1,2,3,4,5,6,7,8,9,10}
+x.add(11)
+
+print(x)
+x={1,2,3,4,5,6,7,8,9,10}
+y={1,2,3,4,5,6,7,8,9,10}
+print(x)
+print(y)
+print(1 in x)
+
+
+
