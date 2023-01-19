@@ -37,8 +37,9 @@ d={'colombo','galle','matara','kandy','jaffna'}
 print(type(d))
 
 #python function or methord
-marks= 25
-def get_grade(subject,marks):
+
+def get_grade(marks, subject='unknown'):
+    print('subject=',subject)
     if marks >= 80:
         print('A')
     elif marks >= 60:
@@ -47,6 +48,20 @@ def get_grade(subject,marks):
         print('C')
     else:
         print('F')
-get_grade('sinhala', 75)
+        
+get_grade(75, 'maths')
+
+#packed arguments
+def get_grade(*marks):
+    
+    total=0
+    for i in marks:
+        total +=i
+        
+    print(total)
+    
+get_grade(10,20,30,40,50,60,70,80,90,100,100)
+    
+    
 
 
