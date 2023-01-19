@@ -155,5 +155,35 @@ print(y)
 print(x)
 
 c=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-print(len(y)) #lenth
+print(len(c)) #lenth
 
+x=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+print(x)
+
+x=1000
+if x>=150:
+    print('yes')# indentation use one tab or 4 space
+else:
+    print('no')
+    
+marks=90
+if marks>=80:
+    print('A')
+else:
+    if marks>=70:
+        print('B')
+    else:
+        if marks>=60:
+            print('C')
+        else:
+            if marks>=50:
+                print('D')
+            else:
+                print('F')
+    
+    #ternary operator
+    height=180
+    job='security' if height>=170 else 'cleaner'
+    print(job)
+    
+    
