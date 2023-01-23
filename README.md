@@ -1,1 +1,2 @@
-# PYTHON
+# PYTHON practice
+machine learning
