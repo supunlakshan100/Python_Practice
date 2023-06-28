@@ -149,7 +149,5 @@ test = "Srilankan is the best country"
 
 print(test.capitalize())
 print(test.index("a"))
-print(test.)
-
 x = 3
 print(x)
