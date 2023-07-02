@@ -46,3 +46,7 @@ Attempting to access the private variable directly (supun.__age) will create a n
 instead of modifying the private variable. Thus, it is important to use the provided accessor methods to interact with 
 encapsulated data, as demonstrated in the code.
 '''
+
+# Encapsulation (This is My ownwords)
+'''The private variables which are in the class don't give access but can be access only through the getter and setter 
+methods. This is called encapsulation...'''

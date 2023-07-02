@@ -1,0 +1,4 @@
+Deep learning is a machine learning technique that teaches computers to do what comes
+ naturally to humans: learn by example. Deep learning is a key technology behind 
+ driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian
+  from a lamppost.
